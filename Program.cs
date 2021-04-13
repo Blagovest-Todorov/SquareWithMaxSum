@@ -43,12 +43,11 @@ namespace Test
                         maxSum = currSum;
                         minIdxRow = row;
                         minIdxCol = col;
-                    }
                 }                
             }
 
             Console.WriteLine(matrix[minIdxRow, minIdxCol] + " " + matrix[minIdxRow, minIdxCol + 1]);
-            Console.WriteLine(matrix[minIdxRow + 1,minIdxCol] +" "+ matrix[minIdxRow +1,minIdxCol+1]);
+            Console.WriteLine(matrix[minIdxRow + 1,minIdxCol] + " " + matrix[minIdxRow + 1, minIdxCol + 1]);
             Console.WriteLine(maxSum);
         }
     }
